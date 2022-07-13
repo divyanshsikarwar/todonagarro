@@ -1,7 +1,6 @@
 body {
   height: 100vh;
-  background: black;
-  color: wheat;
+  color: red;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
@@ -22,7 +21,6 @@ h1{
 
 .task {
   background: #237ee2;
-  color: black;
   margin-top: 10px;
   margin-right: 10px;
   border: 1px white solid;
@@ -39,7 +37,6 @@ h1{
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 2px;
-  color: black;
 }
 
 .inputSec > button {
