@@ -3,7 +3,7 @@ var html = `<div><input class="form-check-input" type="checkbox" value="" id="fl
 function addItemToList() {
     //if someone press enter check if input is not empty
     if(input.value === "") {
-        return
+        return false
     }
 
     console.log("Delete")
