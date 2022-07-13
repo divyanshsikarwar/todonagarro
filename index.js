@@ -20,7 +20,6 @@ function addItemToList() {
   li.innerHTML =  html + ` ${todoItem} </div>`;
   li.appendChild(deleteBtn);
   document.querySelector("ul").appendChild(li);
-  input.value = "";
 }
 
 //enter button
