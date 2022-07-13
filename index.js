@@ -23,6 +23,7 @@ function addItemToList() {
   input.value = "";
 }
 
+//enter button
 document.querySelector("button").addEventListener("click", addItemToList);
 input.addEventListener("keypress", (e) => {
     if (e.keyCode === 13) {
