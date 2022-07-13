@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  background: black;
+  color: wheat;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: aqua;
+}
+
+.task {
+  background: #237ee2;
+  color: black;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.task > button {
+  width: 80px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  color: black;
+}
+
+.inputSec > button {
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.myinput {
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.myinput:focus {
+  background: #237ee2;
+  color: white;
+}
